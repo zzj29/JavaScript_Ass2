@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Gelos Enterprises - Choose your course</title>
+</head>
+<body>
+
+    <header>
+        <div id="headerContent">
+            <ul>
+                <li class="menu">
+                    <a href="index.html">
+                        <img src="images/GE-stacked-logo-reverse.png" alt="Gelos Enterprises Logo">
+                    </a>
+                  </li>
+                <li class="menu"><a class = "active" href="index.html">Home Page</a></li>
+                <li class="menu"><a href = "aboutus.html">About Us</a></li>
+                <li class="menu"><a href = "qualification.html">Qualification Details</a></li>
+                <li class="menu"><a href = "enquiry.html">Enquiry Form</a></li>
+                <li class="menu"><a href = "contact.html">Contact Us</a></li>
+            </ul>
+            <div class="Search">
+                <input type="text" placeholder="Search.." name="search">
+                <button type="submit">Go</button>
+            </div>
+        </div> <!-- END #headerContent -->
+    </header>
+    
+    <div id="wrapper">
+        <h1>Enquiry Form</h1>
+        <form id="form2" method="post" action="mailto:user@host.com" enctype="text/plain">
+            <fieldset  style="width:550px">
+                <div>
+                    <br/><br/>
+                    <!-- General information to validate -->
+                    <label for="txtfirstName">First name: </label>
+                    <input type="text" name="txtfirstName" id="txtfirstName" size="30" />
+                    <br/><br/>
+
+                    <label for="txtLastName">Last name: </label>
+                    <input type="text" name="txtLastName" id="txtLastName" size="30" />
+                    <br/><br/>
+
+                    <label for="txtEmail">Email address: </label>
+                    <input type="text" name="txtEmail" id="txtEmail"  size="30" />
+                    <br/><br/>
+
+                    <label for="txtMobile">Mobile number: </label>
+                    <input type="text" name="txtMobile" id="txtMobile"  size="30" />
+                    <br/><br/>
+
+                    <label for="areaResult">Comments</label>
+                    <textarea name="areaResult" id="areaResult" cols="40" rows="7"></textarea>
+                    <br/><br/>
+                </div>
+
+                <div class="ClassTime">
+                    <p>Your preferred class time</p>
+                    <input type="radio" name="radiotime" id="radioday" value="dayclass" />
+                    <label for="radioday">Day Class</label>
+                    <br />
+                    <input type="radio" name="radiotime" id="radionight" value="nightclass" />
+                    <label for="radionight">Night Class</label>
+                    <br /><br />
+                    <label for="txtResult">Selection Result</label><br />
+                    <input type="text" name="txtResult" id="txtResult" size="50" />
+                    <br/><br/>
+                </div>
+
+                <div id="buttons">
+                    <input type="submit" name="btnSubmit" id="btnSubmit" value="Submit Form" />
+                    <input type="reset" name="btnReset" id="btnReset" value="Reset Form" />
+                    <br/><br/>
+                </div>
+            </fieldset>
+        </form>
+
+    </div> <!-- END #wrapper -->
+
+    <footer>
+        <ul>
+            <li>&copy; Gelos Enterprises 2023</li>
+            <li><a href="www.Facebook.com/GE-studywithus"><img src="images/facebook_icon.png" width="30" height="30" alt="Gelos Enterprises on Facebook"></a></li>
+            <li><a href="www.Instagram.com/GE-studywithus"><img src="images/instagram_icon.png" width="30" height="30" alt="Gelos Enterprises on Instagram"></a></li>
+            <li><a href="www.Twitter.com/GE-studywithus"><img src="images/twitter_icon.png" width="30" height="30" alt="Gelos Enterprises on Twitter"></a></li>
+            <li><a href="enquiry.html">Enquiry Form</a></li>
+        </ul>
+    </footer>
+
+<script type="text/JavaScript" src ="enquiry.js"></script>
+
+</body>
+</html>
